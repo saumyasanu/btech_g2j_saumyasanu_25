@@ -26,11 +26,19 @@ scanf("%d",&choice);
         printf("mul of a and b %d",(a*b));
         break;
         case 4:
-        printf("div of a and b %d",(a/b));
+                if(b!=0)
+        {
+            printf("Result:%d", a/b);
+        }
+        else
+        {
+            printf("Cannot divide by zero.");
+        }
         break;
         case 5:
         printf("mod of a and b %d",(a%b));
         break;
+        case 6:
         default:
         printf("wrong choice");
     }
