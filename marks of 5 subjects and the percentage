@@ -1,0 +1,19 @@
+#include <stdio.h>
+void main()
+{
+int hindi,english,science,maths,computer,sum;
+float per;
+printf("enter marks of hindi=");
+scanf("%d",&hindi);
+printf("enter marks of english=");
+scanf("%d",&english);
+printf("enter marks of science=");
+scanf("%d",&science);
+printf("enter marks of maths=");
+scanf("%d",&maths);
+printf("enter marks of computer=");
+scanf("%d",&computer);
+sum=hindi+english+science+maths+computer;
+per=sum/5;
+printf("percentageof marks=%f",per);
+}
